@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Iceland&family=Indie+Flower&family=Quicksand:wght@300..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #3a3a3a;
+font-family: Iceland;
+}
+.one {
+    background-color: #fdf0d5;
+    height: 400px;
+    width: 300px;
+    border-radius:16px ;
+    display: flex;
+    justify-content: space-between;
+  display: block;
+}
+.two{
+    background-color: #f9d6c6;
+    height: 400px;
+    width: 300px;
+    border-radius:16px ;
+    display: flex;
+    justify-content: space-between;  
+    display: block;
+}
+
+
+.tree{
+    background-color: #0a9396;
+    height: 400px;
+    width: 300px;
+    border-radius:16px ;
+    display: flex;
+    justify-content: space-between; 
+
+}
+.container{
+ 
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.one img{
+
+    border-radius: 16px 16px 0 0;
+    height: 100px;
+}
+.two img{
+    border-radius: 16px 16px 0 0;
+    height: 100px;
+    background-size: cover;
+    width: 300px;
+}
+.tree img{ 
+    border-radius: 16px 16px 0 0;
+    height: 100px;
+    background-size: cover;
+    width: 300px;
+}
+.one h1{
+padding-left: 10px;
+}
+.one ul{
+
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.one h3{
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+.one h2{
+    padding-left: 50px;
+    padding-top: 
+    40px;
+}
+.one h2 strong{
+color: orangered;
+
+
+}
+.two ul{
+
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.two h1{
+    padding-left: 10px;
+    }
+
+    .two h3{
+        padding-left: 10px;
+        padding-top: 10px;
+    
+    }
+    .two h2{
+        padding-left: 50px;
+        padding-top: 
+        40px;
+    }
+    .two h2 strong{
+        color: orangered;
+        
+        
+        }
+        .tree{
+            display: block;
+        }
+        .tree ul{
+
+            padding-left: 30px;
+            padding-top: 30px;
+            font-size: 20px;
+        }
+        .tree h1{
+            padding-left: 10px;
+            }
+
+            .tree h3{
+                padding-left: 10px;
+                padding-top: 10px;
+            
+            }
+
+
+            .tree h2 strong{
+                color: orangered;
+                
+                
+                }
+                .tree h2{
+                    padding-left: 50px;
+                    padding-top: 
+                    40px;
+                }
